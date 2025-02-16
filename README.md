@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle bug in JavaScript related to comparing objects using strict equality. The bug.js file contains the buggy code.  The bugSolution.js file provides a corrected version.  Strict equality (===) is useful for comparing primitives but fails when comparing objects, because it checks for reference equality, not value equality.
