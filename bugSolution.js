@@ -1,0 +1,1 @@
+function foo(a, b) {    if (JSON.stringify(a) === JSON.stringify(b)) {        return true;    } else {        return false;    }}//This solution converts the objects to strings before comparison. For deep comparison of complex nested objects, consider a dedicated deep comparison library.
